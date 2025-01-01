@@ -5,10 +5,7 @@
  */
 package simple_pos;
 
-/**
- *
- * @author sasindu
- */
+
 public class Simple_POS {
 
     /**

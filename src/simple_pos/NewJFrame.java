@@ -9,10 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author sasindu
- */
+
 public class NewJFrame extends javax.swing.JFrame {
 
     public NewJFrame() {        
@@ -109,10 +106,10 @@ public class NewJFrame extends javax.swing.JFrame {
         
         try {
             
-           b.setText("                         Dapp Code FKD \n");
-            b.setText(b.getText() + "                         589/ King Road, \n");
-            b.setText(b.getText() + "                         Colombo, Sri lanka, \n");
-            b.setText(b.getText() + "                         +9411 123456789, \n");
+           b.setText("                         Cafe Chill \n");
+            b.setText(b.getText() + "                         No 208,Flower Rd, \n");
+            b.setText(b.getText() + "                         Kalutara, Sri lanka \n");
+            b.setText(b.getText() + "                         +9477 6703681, \n");
             b.setText(b.getText() + "-------------------------------------------------------------------------\n");
             b.setText(b.getText() + "  Item \t\tQty \tPrice" +"\n");
             b.setText(b.getText() + "-------------------------------------------------------------------------\n");
@@ -135,9 +132,9 @@ public class NewJFrame extends javax.swing.JFrame {
             b.setText(b.getText() + "Cash      : " + pay.getText() +"\n");
             b.setText(b.getText() + "Balance   : " + bal.getText() +"\n");
             b.setText(b.getText() + "-------------------------------------------------------------------------\n");
-            b.setText(b.getText() + "                     Thanks For Your Business...!"+"\n");
+            b.setText(b.getText() + "                     Thanks For Coming...!"+"\n");
             b.setText(b.getText() + "-------------------------------------------------------------------------\n");
-            b.setText(b.getText() + "                     Software by Youtube.com/c/Dappcode"+"\n");
+            b.setText(b.getText() + "                     Software by GHDB's Company"+"\n");
             
            
        
