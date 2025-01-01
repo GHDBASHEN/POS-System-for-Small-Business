@@ -1,24 +1,31 @@
 
 package simple_pos;
 
+import java.awt.*;
 import java.awt.print.PrinterException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
+import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
-
 public class NewJFrame extends javax.swing.JFrame {
-
-    public NewJFrame() {        
+    private BackgroundPanel backgroundPanel;
+    public NewJFrame() {
         
         initComponents();
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         
         jTable1.getColumnModel().getColumn(0).setPreferredWidth(30);
         jTable1.getColumnModel().getColumn(1).setPreferredWidth(200);
+        backgroundPanel = new BackgroundPanel("/pic/backg.jpg");
+
+        // Set the layout and add the background panel
+        backgroundPanel.setLayout(new BorderLayout());
+        backgroundPanel.add(jPanel1); // Add your existing components to the background panel
+
+        // Set the background panel as the content pane
+        setContentPane(backgroundPanel);
         
               
     }
@@ -341,7 +348,7 @@ public class NewJFrame extends javax.swing.JFrame {
         b.setRows(5);
         jScrollPane2.setViewportView(b);
 
-        jPanel3.setToolTipText("Free POS Software.Simple POS for Small Businesses. Youtube.com/c/Dappcode and Youtube.com/@sasindu");
+        jPanel3.setToolTipText("Simple POS");
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 30)); // NOI18N
         jLabel1.setText("Total :");
