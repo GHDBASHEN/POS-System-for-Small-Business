@@ -15,6 +15,10 @@ A simple Point of Sale (POS) system for managing orders, calculating totals, and
 ![image](https://github.com/user-attachments/assets/471ee8c8-ed94-469b-9d7c-2e06449105dd)
 
 
+https://github.com/user-attachments/assets/58afe9b6-4be2-42e4-885e-8d1c9bcc0e96
+
+
+
 ## Technologies Used
 
 - **Language**: Java
