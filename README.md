@@ -12,6 +12,8 @@ A simple Point of Sale (POS) system for managing orders, calculating totals, and
 
 ## Screenshots
 
+![image](https://github.com/user-attachments/assets/471ee8c8-ed94-469b-9d7c-2e06449105dd)
+
 
 ## Technologies Used
 
