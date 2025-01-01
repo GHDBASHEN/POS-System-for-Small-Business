@@ -583,7 +583,7 @@ public class NewJFrame extends javax.swing.JFrame {
         ++i;
         q3.setText(String.valueOf(i));
         
-        addtables(3, "Hot Chocolate  ", i, 150.00);
+        addtables(3, "H-Chocolate ", i, 150.00);
         
         cal();
     }//GEN-LAST:event_jButton3ActionPerformed
